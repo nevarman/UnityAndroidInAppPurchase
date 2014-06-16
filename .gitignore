@@ -1,0 +1,16 @@
+# Generated files
+UnityInAppBillingTutorial/UnityEclipsePlugin/bin
+UnityInAppBillingTutorial/UnityEclipsePlugin/gen
+UnityInAppBillingTutorial/google-play-services_lib/bin
+UnityInAppBillingTutorial/google-play-services_lib/gen
+
+UnityInAppBillingTutorial/UnityProject/Library
+UnityInAppBillingTutorial/UnityProject/Temp
+UnityInAppBillingTutorial/UnityProject/*.csproj
+UnityInAppBillingTutorial/UnityProject/*.unityproj
+UnityInAppBillingTutorial/UnityProject/*.sln
+UnityInAppBillingTutorial/UnityProject/*.suo
+UnityInAppBillingTutorial/UnityProject/*.user
+UnityInAppBillingTutorial/UnityProject/*.userprefs
+UnityInAppBillingTutorial/UnityProject/*.pidb
+UnityInAppBillingTutorial/UnityProject/*.booproj
