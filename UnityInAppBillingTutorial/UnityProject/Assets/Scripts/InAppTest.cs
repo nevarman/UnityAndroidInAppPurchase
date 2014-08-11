@@ -6,6 +6,8 @@ public class InAppTest : MonoBehaviour {
 	void Start()
 	{
 		coinNum = SocialPlugin.callGetCoinData();
+		// send screen name to analytics
+		SocialPlugin.callSendScreenAnalytics(Application.loadedLevelName);
 	}
 	void OnGUI ()
 	{

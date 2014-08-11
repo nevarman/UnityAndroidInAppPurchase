@@ -1,4 +1,4 @@
-﻿//#define DEBUGMODE // CLOSE ON RELEASE!
+﻿//#define DEBUGMODE // Commnet this ON RELEASE!
 using UnityEngine;
 using System.Collections;
 using System.Runtime.InteropServices;
@@ -53,7 +53,16 @@ public class SocialPlugin : MonoBehaviour
 		getCoinData();
 		#elif !DEBUGMODE && UNITY_ANDROID
 		return jo.Call<int>("getCoinData");
+		#else
+		return 5;
 		#endif
 	}
-
+	public static void callSendScreenAnalytics(string screen)
+	{
+		#if !DEBUGMODE && UNITY_IOS
+		onSendScreenAnalytics(screen);
+		#elif !DEBUGMODE && UNITY_ANDROID
+		jo.Call("onSendScreenAnalytics",screen);
+		#endif
+	}
 }

@@ -1,6 +1,5 @@
 <resources>
 
-    <string name="app_name">UnityPlugin</string>
-    <string name="_name">In app billing tutorial</string>
+    <string name="app_name">UnityAndroidPlugin</string>
 
 </resources>
